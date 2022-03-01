@@ -20,7 +20,7 @@ describe('users API', function () {
             set('Content-Type', 'application/json').  //set headers for a request
             set('Accept', 'application/json').
             then(function (res) {
-                expect(res.body.id).to.be.eq(user_id);  // confirms if returned id is equal to expected post_id
+                expect(res.body.id).to.be.eq(user_id);  // confirms if returned id is equal to expected user_id
             })
 
     });
